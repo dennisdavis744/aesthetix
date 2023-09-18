@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    width: 60%;
+    height: 100vh;
+    margin-inline: 20%;
+}
+
+.navbar {
+    width: 100%;
+    height: 4em;
+    display: flex;
+
+    .nav-left {
+        width: 50%;
+        height: 100%;
+        display: flex;
+
+        .logo {
+            height: 3em;
+            padding-top: 0.6em;
+            padding-left: 1em;
+        }
+
+        .head {
+            font-size: 30px;
+            display: flex;
+            align-items: center;
+            padding-left: 0.5em;
+        }
+    }
+
+    .nav-right {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+
+        .nav-elements {
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+            gap: 0.9em;
+        }
+    }
+}
+
+.content {
+    width: 100%;
+    height: 10em;
+    /* background-color: rgb(255, 0, 212); */
+    margin-top: 3em;
+
+    .price {
+        font-size: 45px;
+        text-align: center;
+
+    }
+
+    .para {
+        font-size: 15px;
+        text-align: center;
+        padding-inline: 15em;
+        width: 100%;
+        /* color: rgb(233, 236, 53); */
+
+    }
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+
+    .card {
+        height: 19em;
+
+        .card-header {
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .card-title {
+            font-size: 30px;
+        }
+
+        .card-text1{
+                padding-bottom: 27px;
+        }
+        .card-text{
+            padding-bottom: 27px;
+    }
+        .btn {
+            width: 95%;
+            border-radius: 7%;
+
+        }
+
+        .card-body {
+            vertical-align: padding-inline: 2px;
+            : ;
+            ;
+        }
+    }
+}
+
+.table-heading {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.booticon {
+    height: 2em;
+    width: 2em;
+}
+.foot{
+    display: flex;
+    flex-direction: row;
+    .foot2{
+        padding-left: 20em;
+    }
+    
+}
+
+
+.list1 {
+    list-style: none;
+}
+
+.list2 {
+    list-style: none;
+}
+.list3 {
+    list-style: none;
+    position: absolute;
+right: 650px;
+}

@@ -1,0 +1,51 @@
+img{
+    height: 600px;
+    width: 100%;
+    opacity: 0.8;
+}
+.dot{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+
+}
+.dot1{
+    position: absolute;
+    top: 30px;
+    right: 20px;
+
+}
+.dot2{
+    position: absolute;
+    bottom: 90px;
+    left: 20px;
+
+}
+.dot3{
+    position: absolute;
+    bottom: 90px;
+    right: 20px;
+    color: aliceblue;
+
+}
+.div1{
+width: 33.3%;
+height: 300px;
+background-color: rgba(217, 221, 12, 0.856);
+float: left;
+color:rgb(55, 50, 205);
+}
+.div2{
+    width: 33.3%;
+    height: 300px;
+    background-color: rgba(3, 50, 122, 0.856);
+    float:right;
+    color: rgb(201, 28, 12);
+}
+.div3{
+    width:33.3%;
+    height: 300px;
+    background-color: rgba(221, 12, 190, 0.856);
+    float: right;
+    color: springgreen;
+}

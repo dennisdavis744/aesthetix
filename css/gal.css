@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Arial';
+}
+imG{
+    width: 250PX;
+    height: 300PX;
+    opacity: 0.7;
+    display: inline;
+    position: relative;
+}
+.flower1{
+    height: 700px;
+    width: 600px;
+    display: block;
+   margin-top: 20PX;
+   margin-left: auto;
+   margin-right: auto;
+   background-color: gray;
+   position: relative;
+   color: rgb(251, 251, 8);
+   
+}
+.row1{
+    margin-left: 0px;
+    float: left;
+    padding: 20px;
+}
+.row2{
+    margin-left: 0px;
+    float: left;
+    padding: 20px;
+}
+h1{
+    text-align: center;
+    color: slateblue;
+    font-size: 90px;
+}
+.jai{
+    position: absolute;
+    top: 250px;
+    left: 35px;
+    font-size: 20px;
+    visibility: hidden;
+    background-color: black;
+    height: inherit;
+    width: inherit;
+}
+.jala{
+    position: absolute;
+    top: 250px;
+    right: 50px;
+    font-size: 20px; 
+    visibility: hidden;
+    background-color: blue;
+}
+.yoyo{
+    position: absolute;
+    bottom: 110px;
+    left: 35px;
+    font-size: 20px; 
+    visibility: hidden;
+    background-color: rgb(211, 229, 16);
+}
+.jojo{
+    position: absolute;
+    bottom: 110px;
+    right: 50px;
+    font-size: 20px; 
+    visibility: hidden;
+    background-color: rgb(216, 14, 169);
+}
+.row1:hover .jai{
+visibility: visible;
+}
+.row2:hover .jojo{
+visibility: visible;
+}
+.row2:hover .jala{
+    visibility: visible;
+}
+.row1:hover .yoyo{
+    visibility:visible;
+}

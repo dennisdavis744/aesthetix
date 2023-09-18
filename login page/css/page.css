@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image:linear-gradient(to left,rgb(237, 155, 168),rgb(219, 106, 219)) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+.form-main{
+    height: 360px;
+    width: 200px;
+    background-image: linear-gradient(to top,rgb(255, 213, 0),rgb(255, 0, 0));
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+.btn{
+    /* background-color: blue; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px;
+    width:150px;
+    margin-top: 10px;
+    background-image: linear-gradient(to right,rgb(10, 217, 236),rgb(94, 8, 243));
+    border-radius: 20px;
+    border:none;
+}
+h1{
+    padding-bottom: 20px;
+    text-align: center;
+    /* font-size: larger; */
+}
+hr{
+    color: rgb(234, 231, 229);
+    border:1px solid rgb(5, 80, 11);
+}
+a{
+    margin-left: 40px;
+    margin-right: auto;
+}
+img{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+}
+input{
+    width: auto;
+    height: 30px;
+    /* border-radius: 15px; */
+}
+button{
+  border-radius: 28px;
+  background-color: rgb(3, 160, 251);
+}
+.child1{
+background-color: azure;
+}
+.child2{
+    background-color: rgb(12, 96, 252);
+}

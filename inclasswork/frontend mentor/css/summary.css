@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-image: url(../assests/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: grid;
+    min-height: 100vh;
+    place-content: center;
+    background-color: rgb(147, 215, 251);
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    justify-content: center;
+}
+
+.main-container {
+    max-width: 35rem;
+    border-radius: 2rem;
+    background-color: rgb(238, 234, 234);
+}
+.text{
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    justify-content: center;
+}
+
+.text h1 {
+    text-align: center;
+    font-size: 2.6rem;
+    font-weight: 900;
+}
+
+.para {
+    text-align: center;
+    font-size: 1.6rem;
+    color: rgb(90, 91, 92);
+}

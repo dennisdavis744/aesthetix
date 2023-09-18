@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+    table,tr,td,th{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+table{
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+    margin: 20px;
+}
+tr:nth-child(even) {
+background-color: aqua;
+}
+th{
+    background-color: blueviolet;
+    color: bisque;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+td{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+tr:hover{
+    background-color: yellowgreen;
+}

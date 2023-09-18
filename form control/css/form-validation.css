@@ -1,0 +1,13 @@
+.container{
+    max-width: 960px;
+}
+.text-center{
+    text-align: center;
+}
+/* /* .lead{
+    font-size: 1.25rem; */
+
+
+.lh-condensed{
+    line-height:1.25;
+}
